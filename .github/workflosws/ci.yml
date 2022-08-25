@@ -4,8 +4,10 @@
 name: Node.js CI
 
 on:
-  schedule:
-    - cron:  '*/1 * * * *'
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
 
 jobs:
   build:
@@ -27,4 +29,4 @@ jobs:
     - run: npm ci
     - run: npm run build --if-present
     - run: npm test
-    - run: ../../src/test/google.js
+    - run: src/test/google.js

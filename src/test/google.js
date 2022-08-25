@@ -15,7 +15,7 @@ const creds = require("./puppeteer-crawler-360413-144df533ba44.json");
   let i = 0;
   for (const iterator of object) {
       
-    const sheet = await doc.sheetsByIndex[i]
+    const sheet = doc.sheetsByIndex[i]
   // append rows
     await sheet.addRows(result[iterator]);
     i++;
