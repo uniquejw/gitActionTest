@@ -1,8 +1,8 @@
 const {GoogleSpreadsheet} = require("google-spreadsheet");
 const { docs } = require("googleapis/build/src/apis/docs");
 
-const result = require("./main.json");
-const creds = require("./puppeteer-crawler-360413-144df533ba44.json");
+const result = require("./test/main.json");
+const creds = require("./test/puppeteer-crawler-360413-144df533ba44.json");
 
 (async () => {
   const doc = new GoogleSpreadsheet('1c0l3SDTMe14fbddN2IZVuGh1eVSIUPuWeT9ABeyMqFI');
