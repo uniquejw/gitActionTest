@@ -1,8 +1,8 @@
 {
-  "name": "jaewon",
+  "name": "@jaewon/gitActionTest",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "/.github/google.js",
   "scripts": {
     "test" : "Hello"
   },
