@@ -18,6 +18,8 @@ const creds = require("./puppeteer-crawler-360413-144df533ba44.json");
     const sheet = doc.sheetsByIndex[i]
   // append rows
     await sheet.clear();
+    let Key = ["id", "name", "thumbnail", "price", "discountPrice"]
+    await sheet.setHeaderRow(Key);
     await sheet.addRows(result[iterator]);
     i++;
 } 
