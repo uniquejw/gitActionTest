@@ -12,7 +12,9 @@
   "dependencies": {
     "google-spreadsheet": "^3.3.0",
     "googleapis": "^107.0.0",
-    "puppeteer": "^3.3.0"
+    "node": "^16.17.0",
+    "puppeteer": "^3.3.0",
+    "test": "^3.2.1"
   },
   "devDependencies": {
     "google-charts": "^2.0.0"
