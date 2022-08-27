@@ -13,7 +13,7 @@
     "google-spreadsheet": "^3.3.0",
     "googleapis": "^107.0.0",
     "node": "^16.17.0",
-    "puppeteer": "^3.3.0",
+    "puppeteer": "^16.2.0",
     "test": "^3.2.1"
   },
   "devDependencies": {
